@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>steemleak::support wikileaks via steem</title>
+<meta  name="description" content="steemleak acts as a payment proxy for wikileaks and steem. Support wikileaks with your vote or your brain!">
+<meta property="og:title" content="steemleak::support wikileaks via steem">
+<meta property="og:site_name" content="steemleak.com">
+<meta property="og:description" content="steemleak acts as a payment proxy for wikileaks and steem. Support wikileaks with your vote or your brain!">
+<meta charset="UTF-8">
+<!-- <script src="/js/steemleak.js"></script> -->
+<link rel="stylesheet" type="text/css" href="https://www.steemleak.com/css/steemleak.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css" crossorigin="anonymous">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" crossorigin="anonymous">
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"></script>
+</head><body>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title"><i class="fa fa-fw fa-thumbsup"></i><center><img src="/img/steemleak.png"></center></h3>
+        </div>
+      </div>
+      <div class="panel-body">
+        <ul>
+          <li>Support <a href="https://wikileaks.org">wikileaks</a> by <span class="steemupvoteicon"><span style="display: inline-block; width: 1.12rem; height: 1.12rem;" class="Icon chevron-up-circle" is="null"><svg enable-background="new 0 0 33 33" version="1.1" viewBox="0 0 33 33" xml:space="preserve" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g id="Chevron_Up_Circle"><circle cx="16" cy="16" r="15" stroke="#121313" fill="none"></circle><path d="M16.699,11.293c-0.384-0.38-1.044-0.381-1.429,0l-6.999,6.899c-0.394,0.391-0.394,1.024,0,1.414 c0.395,0.391,1.034,0.391,1.429,0l6.285-6.195l6.285,6.196c0.394,0.391,1.034,0.391,1.429,0c0.394-0.391,0.394-1.024,0-1.414 L16.699,11.293z" fill="#121313"></path></g></svg></span></span> <a href="https://steemit.com/@steemleak">voting</a> </li>
+          <li><a href="https://steemd.com/@steemleak">Forced transparency</a> on the <a href="https://steem.io">steem</a> blockchain</a></li>
+          <li>v0.2 - an initiative by <a href="https://steemit.com/@ausbitbank">@ausbitbank</a></li>
+        </ul>
+      </div>
+      <br />
+      <center><a href="https://steemit.com/@steemleak"><image src="/img/participate.png"></a></center>
+      <center><script>function shapeshift_click(a,e){e.preventDefault();var link=a.href;window.open(link,'1418115287605','width=700,height=500,toolbar=0,menubar=0,location=0,status=1,scrollbars=1,resizable=0,left=0,top=0');return false;}</script> <a onclick="shapeshift_click(this, event);" href="https://shapeshift.io/shifty.html?destination=1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v&amp;output=BTC&amp;apiKey=0c069523e2ed9e08d1b6babc1de6d207b2850b5a81366e62046849a56856e3fed85ec76e3f3861e1462bf9527e77c423bb662e61ce57f47cd689f311daecd8a4"><img src="https://shapeshift.io/images/shifty/xs_light_altcoins.png" class="ss-button"></a></center>
+  </div>
+
+  <div class="col-md-4">
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-fw fa-question"></i>What is steemleak ?</h3>
+      </div>
+    </div>
+    <div class="panel-body">
+      <p>Steemleak currently acts as a donation portal for <a href="https://wikileaks.org">wikileaks</a>.</p>
+      <p>See our initial <a href="https://steemit.com/steemleak/@steemleak/introducing-steemleak-feedback-requested-service-is-active-from-now">introduction here</a>.</p>
+      <p>So far we have donated a total of <strong id="totalbtc">0.96757697</strong> BTC and delivered it to the official <a href="https://blockchain.info/address/1HB5XMLmzFVj8ALj6mfBsbifRoD4miY36v">wikileaks address</a>.</p>
+      <p>For this to happen, <strong>it only took votes</strong>.</p>
+      <center><a href="https://steemit.com/@steemleak"><span style="display: inline-block; width: 8rem; height: 8rem" is="null"><svg viewBox="0 0 28 29" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="steem"><path d="M4.22924444,3.23195745 C3.94488889,3.09004255 0.337866667,6.07148936 0.337866667,8.265 C0.332888889,11.2631064 4.54533333,18.0552766 5.25466667,20.6825532 C5.86506667,22.9359149 4.21928889,25.6403191 4.67164444,25.7631064 C5.0848,26.0284255 9.01475556,22.0486383 9.16782222,20.3518298 C9.36506667,17.6498936 4.57893333,9.77114894 4.19751111,7.73682979 C3.75511111,5.36253191 4.54782222,3.28502128 4.22924444,3.23195745 L4.22924444,3.23195745 L4.22924444,3.23195745 Z" id="Fill-1" fill="#1A5099"></path><path d="M13.2321778,0.130191489 C12.8700444,-0.0505957447 8.26871111,3.74778723 8.26871111,6.54844681 C8.26373333,10.3715106 13.6353778,19.0338723 14.5394667,22.3812128 C15.3172444,25.2546809 13.2197333,28.7038298 13.7934222,28.8580851 C14.3235556,29.1949787 19.3324444,24.1242979 19.5296889,21.9573191 C19.7823111,18.5131064 13.6764444,8.46738298 13.1904889,5.86910638 C12.6267556,2.84878723 13.6353778,0.197446809 13.2321778,0.130191489 L13.2321778,0.130191489 L13.2321778,0.130191489 Z" id="Fill-2" fill="#4BA2F2"></path><path d="M22.5238222,3.23195745 C22.2419556,3.09004255 18.6324444,6.07148936 18.6324444,8.265 C18.6280889,11.2631064 22.8399111,18.0552766 23.5498667,20.6825532 C24.1596444,22.9359149 22.5144889,25.6403191 22.9662222,25.7631064 C23.3818667,26.0284255 27.3124444,22.0486383 27.4630222,20.3518298 C27.6596444,17.6498936 22.8741333,9.77114894 22.4920889,7.73682979 C22.0503111,5.36253191 22.8424,3.28502128 22.5238222,3.23195745 L22.5238222,3.23195745 Z" id="Fill-3" fill="#1A5099"></path></g></g></svg></span></a></center>
+      <p><center><a href="https://steem.io">steem</a> and <a href="https://steemit.com">steemit</a><br /><strong>Where your vote count$</strong></center></p>
+    </div>
+
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title"><span class="steemupvoteicon"><span style="display: inline-block; width: 1.12rem; height: 1.12rem;" class="Icon chevron-up-circle" is="null"><svg enable-background="new 0 0 33 33" version="1.1" viewBox="0 0 33 33" xml:space="preserve" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g id="Chevron_Up_Circle"><circle cx="16" cy="16" r="15" stroke="#121313" fill="none"></circle><path d="M16.699,11.293c-0.384-0.38-1.044-0.381-1.429,0l-6.999,6.899c-0.394,0.391-0.394,1.024,0,1.414 c0.395,0.391,1.034,0.391,1.429,0l6.285-6.195l6.285,6.196c0.394,0.391,1.034,0.391,1.429,0c0.394-0.391,0.394-1.024,0-1.414 L16.699,11.293z" fill="#121313"></path></g></svg></span></span>  &nbsp; Latest Updates</h3>
+      </div>
+    </div>
+    <div class="panel-body">
+      <span class="label"><i class="fa fa-fw fa-cloud" style="color:green;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/steemleak-wikileaks-donation-report-3-11-10-2016">SteemLeak - Wikileaks Donation Report 3 (11/10/2016)</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-video-camera" style="color:black;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/wikileaks-org-press-conference-is-live-now-alternative-coverage-by-right-side-broadcasting">Wikileaks.org press conference is LIVE NOW</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-globe" style="color:blue;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/wikileaks-publication-tisa-core-text-analysis">Wikileaks Publication 🌏 TiSA Core Text analysis</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-globe" style="color:blue;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/wikileaks-publication-tisa-core-text-draft">Wikileaks Publication 🌏 TiSA Core Text draft</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-globe" style="color:blue;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/wikileaks-weekly-wrap-for-september-1-9th">Wikileaks Weekly Wrap for September 1-9th</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-bullhorn" style="color:red;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/response-to-new-york-times-article-on-wikileaks">Response to New York Times article on WikiLeaks</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-globe" style="color:blue;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/wikileaks-weekly-wrap-for-august-23-30th">Wikileaks Weekly Wrap for August 23-30th</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-cloud" style="color:green;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/steemleak-donation-report-2-23-8-2016">SteemLeak - Donation Report 2 (23/8/2016)</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-video-camera" style="color:black;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/assange-why-i-created-wikileaks-searchable-database-of-30-000-emails-from-clinton-s-private-server">Assange: Why I Created WikiLeaks' Searchable Database of 30,000 Emails from Clinton's Private Server</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-bomb" style="color:red;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/hillary-clinton-took-cash-from-was-director-of-company-that-did-deals-with-isis-lafarge">Hillary Clinton took cash from, was director of, company that did deals with ISIS (Lafarge)</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-video-camera" style="color:black;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/wikileaks-donation-ad-how-much-does-it-cost-to-save-the-world">Wikileaks donation ad - How much does it cost to save the world ?</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-bullhorn" style="color:red;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/steemleak-steemleak-com-launched">SteemLeak::Steemleak.com launched</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-check-square-o" style="color:blue;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/steemleak-steem-power-as-a-non-profit-charity-power-down-or-hold-poll">SteemLeak::Steem Power as a non-profit charity - Power down or Hold ? [POLL]</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-cloud" style="color:green;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/steemleak-donation-report-1-27-7-2016">SteemLeak donation report 1</a></small></span>
+      <span class="label"><i class="fa fa-fw fa-bullhorn" style="color:red;"></i>&nbsp;<small><a href="https://steemit.com/steemleak/@steemleak/introducing-steemleak-feedback-requested-service-is-active-from-now">Introducing steemleak! Feedback requested, service is active NOW</a></small></span>
+      </ul>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-fw fa-cloud"></i> Latest Report linked via steemcloud</h3>
+      </div>
+    </div>
+    <div class="panel-body">
+      <div id="SupporterCloud"><a href="https://steemit.com/steemleak/@steemleak/steemleak-wikileaks-donation-report-3-11-10-2016"><img src="https://imgur.com/0zDEkBk.png" width="350"></a></div>
+    </div>
+  </div>
+
+  <div class="col-md-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title"><i class="fa fa-fw fa-twitter"></i>@<a href="https://twitter.com/wikileaks">wikileaks</a></h3>
+      </div>
+      <div class="panel-body">
+        <div id="Twitter">
+          <a class="twitter-timeline"  href="https://twitter.com/search?q=from%3Awikileaks" data-widget-id="770255876774952962"></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+          </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+</body></html>
